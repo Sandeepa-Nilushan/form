@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
 const page = () => {
   return (
@@ -15,8 +15,9 @@ const page = () => {
         <Input placeholder="Address" type="text" className="text-black" />
         <Input placeholder="City" type="text" className="text-black" />
         <Input placeholder="State" type="text" className="text-black" />
-        <Button className="text-white bg-black w-full" variant="outline">Submit</Button>
-
+        <Button className="text-white bg-black w-full" variant="outline">
+          Submit
+        </Button>
       </div>
     </div>
   );

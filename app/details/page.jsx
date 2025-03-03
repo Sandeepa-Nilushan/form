@@ -31,8 +31,9 @@ const page = () => {
 
   return (
     <div>
+      <h1 className="text-2xl font-bold mb-4">User Details</h1>
       <Table>
-        
+        <TableCaption>A list of submitted user details.</TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead>First Name</TableHead>

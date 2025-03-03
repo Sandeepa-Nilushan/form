@@ -32,7 +32,7 @@ const page = () => {
   return (
     <div>
       <Table>
-        <TableCaption>A list of submitted user details.</TableCaption>
+        
         <TableHeader>
           <TableRow>
             <TableHead>First Name</TableHead>
